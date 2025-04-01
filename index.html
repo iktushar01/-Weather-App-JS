@@ -28,7 +28,7 @@
   </head>
   <body>
     <!-- card -->
-    <div class="max-w-[30rem] w-full bg-gradient-to-br from-gray-900 to-gray-800 text-white mx-auto my-28 h-96 rounded-xl p-10 text-center">
+    <div class="max-w-[30rem] w-full bg-gradient-to-br from-gray-900 to-gray-800 text-white mx-auto my-28 rounded-xl p-10 text-center">
         <!-- search -->
         <div class="w-full flex items-center justify-between">
             <input class="w-80 border-0 outline-0 bg-slate-100 text-gray-600 py-2.5 px-6 h-14 rounded-lg " type="text" placeholder="Enter City Name" spellcheck="false">
@@ -36,6 +36,33 @@
                 <i class="fa-solid fa-magnifying-glass text-gray-600 text-2xl"></i>
             </button>
         </div>
+        <!-- weather -->
+         <div class="flex justify-center items-center flex-col">
+            <div><img class="w-[160px] mt-[30px]" src="./images/rain.png" alt=""></div>
+            <div>
+                <h1 class="text-5xl">22°C</h1>
+                <h2 class="text-4xl my-3">Dhaka</h2>
+            </div>
+            
+         </div>
+         <div class="flex justify-around items-center">
+            <div class="flex items-center gap-3">
+                <img class="w-12" src="./images/humidity.png" alt="">
+                <div>
+                    <p>50%</p>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="flex items-center gap-3">
+                <img class="w-12" src="./images/wind.png" alt="">
+                <div>
+                    <p>15 km/h</p>
+                    <p>Wind</p>
+                </div>
+            </div>
+            
+        </div>
+
     </div>
 
 
