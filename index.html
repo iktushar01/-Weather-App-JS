@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light" class="bg-blue-100 min-h-screen">
+<html lang="en" data-theme="light" class="bg-[#222] min-h-screen">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,15 +13,31 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+      
     <style>
       body {
         font-family: "Poppins", sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
       }
     </style>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body>
-    
+    <!-- card -->
+    <div class="max-w-[30rem] w-full bg-gradient-to-br from-gray-900 to-gray-800 text-white mx-auto my-28 h-96 rounded-xl p-10 text-center">
+        <!-- search -->
+        <div class="w-full flex items-center justify-between">
+            <input class="w-80 border-0 outline-0 bg-slate-100 text-gray-600 py-2.5 px-6 h-14 rounded-lg " type="text" placeholder="Enter City Name" spellcheck="false">
+            <button class="border-0 outline-0 bg-slate-100 rounded-full w-[60px] h-[60px] text-center">
+                <i class="fa-solid fa-magnifying-glass text-gray-600 text-2xl"></i>
+            </button>
+        </div>
+    </div>
+
+
   </body>
 </html>
