@@ -38,4 +38,5 @@ searchBtn.addEventListener("click", () => {
     checkWeather(searchBox.value);
     document.getElementById("weatherRemove1").classList.remove("hidden");
     document.getElementById("weatherRemove2").classList.remove("hidden");
+    document.getElementById("noData").classList.add("hidden");
 });
