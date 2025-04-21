@@ -2,6 +2,10 @@
 
 A simple and responsive weather application built using HTML, CSS, and JavaScript. It fetches real-time weather data using the [OpenWeatherMap API](https://openweathermap.org/api) and displays the current weather conditions for a searched city.
 
+## 🌐 Live Demo
+
+👉 [Click here to try the Weather App](https://iktushar01.github.io/Weather-App-JS/)
+
 ## 🚀 Features
 
 - Search for current weather by city name
@@ -18,3 +22,4 @@ A simple and responsive weather application built using HTML, CSS, and JavaScrip
 - CSS3
 - JavaScript (Vanilla JS)
 - OpenWeatherMap API
+
